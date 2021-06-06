@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Bill.css">
+    <script src="js/Bill.js"></script>
+    <title>Bill Splitter App</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <label>How much is your bill?</label>
+            <input id="bill-value" type="number" placeholder="$0" required>
+            <label>How many people are you splitting the bill between?</label>
+            <input id="party-split" type="number" placeholder="0" required>
+        </form>
+        <button id="submit" onclick="splitBill();">Split the Bill</button>
+        <p id="split-val"></p>
+    </div>
+</body>
+
+</html>
